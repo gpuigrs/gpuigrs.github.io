@@ -1,0 +1,63 @@
+/*
+  Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
+*/
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boto,
+.boto:link
+.boto:visited {
+  background-color: #2c77a1;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.boto:hover {
+  background-color: #205370;
+  color: rgb(180, 180, 180);  
+}
+summary.dspl {
+font-size:2em;
+background-color: #2c77a1;
+color: white;
+padding: 20px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 12px;
+width:100%;
+border: none;
+}
+summary.dspl:hover {
+  background-color: #205370;
+  color: rgb(180, 180, 180);  
+}
+
+.botom,
+.botom:link
+.botom:visited {
+  background-color: #2c77a1;
+  border: none;
+  color: white;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.botom:hover {
+  background-color: #205370;
+  color: rgb(180, 180, 180);  
+}
